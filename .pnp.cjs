@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:13.5.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:18.2.0"],\
+            ["react-icons", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:4.10.1"],\
             ["react-scripts", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:5.0.1"],\
             ["uuid", "npm:9.0.0"],\
             ["web-vitals", "npm:2.1.4"]\
@@ -15046,6 +15047,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-icons", [\
+        ["npm:4.10.1", {\
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.10.1-74abe904b6-b6c8d4fe48.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "npm:4.10.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:4.10.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-e11342fae0/0/cache/react-icons-npm-4.10.1-74abe904b6-b6c8d4fe48.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:4.10.1"],\
+            ["@types/react", null],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-is", [\
         ["npm:16.13.1", {\
           "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",\
@@ -16772,6 +16795,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:13.5.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:18.2.0"],\
+            ["react-icons", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:4.10.1"],\
             ["react-scripts", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:5.0.1"],\
             ["uuid", "npm:9.0.0"],\
             ["web-vitals", "npm:2.1.4"]\
