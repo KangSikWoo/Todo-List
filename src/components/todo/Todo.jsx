@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFillTrashFill } from "react-icons/bs";
+import styles from "./Todo.module.css";
 
 export default function Todo({ todo, onUpdate, onDelete }) {
   // 이렇게 쓰면 일일이 todo.text를 안 써도 된다.
@@ -10,17 +11,22 @@ export default function Todo({ todo, onUpdate, onDelete }) {
   };
   const handleDelete = () => onDelete(todo);
   return (
-    <li>
+    <li className={styles.todo}>
       <input
+        className={styles.checkbox}
         type="checkbox"
         id="checkbox"
         checked={status === "completed"}
         onChange={handleChange}
       />
-      <label htmlFor="checkbox">{text}</label>
-      <button onClick={handleDelete}>
-        <BsFillTrashFill />
-      </button>
+      <label htmlFor="checkbox" className={styles.text}>
+        {text}
+      </label>
+      <span className={styles.icon}>
+        <button onClick={handleDelete} className={styles.button}>
+          <BsFillTrashFill />
+        </button>
+      </span>
     </li>
   );
 }
