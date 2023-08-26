@@ -4,7 +4,7 @@ import styles from "./Todo.module.css";
 
 export default function Todo({ todo, onUpdate, onDelete }) {
   // 이렇게 쓰면 일일이 todo.text를 안 써도 된다.
-  const { text, status } = todo;
+  const { id, text, status } = todo;
   const handleChange = (e) => {
     const status = e.target.checked ? "completed" : "active";
     onUpdate({ ...todo, status });
@@ -15,11 +15,11 @@ export default function Todo({ todo, onUpdate, onDelete }) {
       <input
         className={styles.checkbox}
         type="checkbox"
-        id="checkbox"
+        id={id}
         checked={status === "completed"}
         onChange={handleChange}
       />
-      <label htmlFor="checkbox" className={styles.text}>
+      <label htmlFor={id} className={styles.text}>
         {text}
       </label>
       <span className={styles.icon}>
